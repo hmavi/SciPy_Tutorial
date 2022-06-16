@@ -76,7 +76,7 @@ K,P,E = lqr(A, B, Q, R)  #implementing LQR controller
 z0 = [-20,0,0,0]  #initial valve for state variables
 
 Ti = 0
-Tf = 4 #time (sec)
+Tf = 3 #time (sec)
 Tstep = 2000
 t = np.linspace(Ti,Tf,Tstep)  #setting time span
 
