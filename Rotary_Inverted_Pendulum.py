@@ -7,7 +7,7 @@ from control.matlab import lqr
 
 #parameter definition
 Rm = 8.4    #motor resistance (Ohm)
-kt = 0.042  #current torrue (N-m/A)
+kt = 0.042  #current torque (N-m/A)
 km = 0.042  #Back-emf constant (V-s/rad)
 
 Mr = 0.095  #rotary arm mass (kg)
